@@ -8,7 +8,7 @@ from linkedlist import SinglyLinkedList # Tidak lagi Node karena sudah dihandle 
 class MemoAppGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Aplikasi Memo Sederhana - GUI Version")
+        self.root.title("Aplikasi Memo Unesa (Monesa) - GUI Version")
         self.root.geometry("800x600") # Ukuran disesuaikan
         self.root.configure(bg='#f0f0f0')
 
