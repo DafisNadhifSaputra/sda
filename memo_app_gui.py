@@ -2,8 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext, simpledialog
 import json
 from memo import Memo
-from linkedlist import SinglyLinkedList # Tidak lagi Node karena sudah dihandle linkedlist
-# Node tidak perlu diimpor langsung di GUI lagi
+from linkedlist import SinglyLinkedList 
 
 class MemoAppGUI:
     def __init__(self, root):
